@@ -7,7 +7,7 @@ wget https://github.com/AlanisDev/Alanis/releases/download/v1.0/Alanis-qt-linux.
 # cambiar a su
 add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
-sudo apt-get install libdb4.8-dev libdb4.8++-dev build-essential libtool autotools-dev autoconf pkg-config sudo libssl-dev libboost-all-dev git npm nodejs libminiupnpc-dev redis-server
+sudo apt-get install libdb4.8-dev libdb4.8++-dev build-essential libtool autotools-dev autoconf pkg-config sudo libssl-dev libboost-all-dev git npm nodejs libminiupnpc-dev redis-server libminiupnpc-dev
 
 tar -xzvf Alanis-qt-linux.tar.gz
 sudo apt-get install g++ python-dev autotools-dev libicu-dev libbz2-dev
